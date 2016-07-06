@@ -58,7 +58,7 @@ export PATH=$HOME/src/go/gocode/bin:$PATH
 export PATH=$ANDROID_HOME/tools:$PATH
 export PATH=$ANDROID_HOME/platform-tools:$PATH
 export RUST_SRC_PATH=$HOME/src/rust/rust/src
-export GOPATH=$HOME/src/go/gocode:$HOME/src/go/mit-cources/6.824
+export GOPATH=$HOME/src/go/gocode:$HOME/src/go/mit-cources/6.824-2015
 
 # export MANPATH="/usr/local/man:$MANPATH"
 
