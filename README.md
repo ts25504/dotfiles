@@ -1,7 +1,9 @@
 # dotfiles
 
 #### Dependency:
-[`Vundle`](https://github.com/VundleVim/Vundle.vim)
+You need [`Vundle`](https://github.com/VundleVim/Vundle.vim) to install plugins.
+
+Launch vim and run :PluginInstall.
 
 #### Screenshot
 Python:
