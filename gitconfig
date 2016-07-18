@@ -5,7 +5,7 @@
 [user]
 [user]
 	name = ts25504
-	email = ts25504@163.com
+	email = ts25504@gmail.com
 [filter "hawser"]
 	clean = git hawser clean %f
 	smudge = git hawser smudge %f
