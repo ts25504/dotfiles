@@ -104,11 +104,6 @@ set smarttab
     " Always hide the statusline
     set laststatus=2
 
-    function! CurDir()
-        let curdir=substitute(getcwd(), '/Users/apple', "~/", "g")
-        return curdir
-    endfunction
-
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " Files, backups and undo
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
