@@ -53,12 +53,15 @@ plugins=(git)
 # User configuration
 
 export ANDROID_HOME=$HOME/Library/Android/sdk
+export GOPATH=$HOME/src/go/gocode
+export CARGO_HOME=$HOME/.cargo
 export PATH=$HOME/bin:/usr/local/bin:/usr/local/go/bin:$PATH
 export PATH=$HOME/src/go/gocode/bin:$PATH
 export PATH=$ANDROID_HOME/tools:$PATH
 export PATH=$ANDROID_HOME/platform-tools:$PATH
+export PATH=$GOPATH/bin:$PATH
+export PATH=$CARGO_HOME/bin:$PATH
 export RUST_SRC_PATH=$HOME/src/rust/rust/src
-export GOPATH=$HOME/src/go/gocode:$HOME/src/go/mit-courses/6.824-2015
 
 # export MANPATH="/usr/local/man:$MANPATH"
 
