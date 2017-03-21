@@ -174,6 +174,7 @@ Plugin 'fatih/vim-go'
 " Env
 Plugin 'scrooloose/nerdtree'
 Plugin 'majutsushi/tagbar'
+Plugin 'EasyGrep'
 
 " colorscheme
 Plugin 'altercation/vim-colors-solarized'
@@ -238,6 +239,14 @@ nmap <F8> :TagbarToggle<CR>
 " nerdtree
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 map <F7> :NERDTreeToggle<CR>
+
+
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" EasyGrep
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+let g:EasyGrepMode = 2     " All:0, Open Buffers:1, TrackExt:2
+let g:EasyGrepCommand = 0  " Use vimgrep:0, grepprg:1
+let g:EasyGrepRecursive  = 1 " Recursive searching
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " Colors and Fonts
