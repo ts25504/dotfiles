@@ -129,7 +129,7 @@ nnoremap <leader>gf :YcmCompleter GoToDefinition<CR>
 nnoremap <leader>gg :YcmCompleter GoTo<CR>
 
 let g:ycm_rust_src_path = "/Users/apple/src/rust/rust/src"
-let g:ycm_python_binary_path = '/usr/bin/python'
+let g:ycm_python_binary_path = '/usr/local/bin/python'
 let g:ycm_global_ycm_extra_conf = '~/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/ycm/.ycm_extra_conf.py'
 let g:ycm_show_diagnostics_ui = 0
 set completeopt-=preview
